@@ -43,7 +43,7 @@ python -m nltk.downloader vader_lexicon stopwords
 ## ⚙️ Configuration
 
 ### Environment Variables
-- `TIME_DELTA_HOURS`: Number of hours to look back (default: 240)
+- `TIME_DELTA_HOURS`: Number of hours to look back (default: 72)
 - `TRANSFORMERS_CACHE`: Cache directory for transformer models
 
 ### Impact Levels
