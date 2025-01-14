@@ -8,7 +8,7 @@ An intelligent RSS news aggregator that scores and clusters headlines using adva
 ## 🚀 Features
 
 - **Smart Feed Aggregation**: Automatically fetches and processes articles from multiple RSS feeds
-- **Authority Scoring**: Implements sophisticated source credibility scoring
+- **Impact Scoring**: Implements sophisticated source credibility scoring
 - **Advanced Clustering**: Groups similar headlines using state-of-the-art NLP
 - **Flexible Output**: Supports multiple output destinations (Google Forms, Email, Slack, Cloud Services)
 - **Temporal Filtering**: Configurable timeframe for article inclusion
@@ -46,12 +46,12 @@ python -m nltk.downloader vader_lexicon stopwords
 - `TIME_DELTA_HOURS`: Number of hours to look back (default: 240)
 - `TRANSFORMERS_CACHE`: Cache directory for transformer models
 
-### Authority Levels
+### Impact Levels
 The system uses four authority levels for sources:
-- High Authority (5 points)
-- Medium-High Authority (3 points)
-- Medium Authority (2 points)
-- Medium-Low Authority (1 point)
+- High Impact (5 points)
+- Medium-High Impact (3 points)
+- Medium Impact (2 points)
+- Medium-Low Impact (1 point)
 
 ## 📊 Usage Examples
 
@@ -93,8 +93,8 @@ rss_feeds = [
 ]
 ```
 
-### Adjusting Authority Scores
-Modify the `AUTHORITY_DOMAINS` dictionary to adjust source credibility scores.
+### Adjusting Impact Scores
+Modify the `IMPACT_DOMAINS` dictionary to adjust source credibility scores.
 
 ## 🤝 Contributing
 
